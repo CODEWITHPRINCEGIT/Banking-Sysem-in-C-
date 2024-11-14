@@ -12,8 +12,8 @@ int main() {
     do {
         cout << "\n\n*** Banking System ***\n";
         cout << "1. Check Balance\n";
-        cout << "2. Deposit Amount\n";
-        cout << "3. Withdraw Amount\n";
+        cout << "2. Deposit Cash\n";
+        cout << "3. Withdraw Cash\n";
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
@@ -23,13 +23,13 @@ int main() {
                 cout << "\nYour Balance is: " << balance << endl;
                 break;
             case 2:
-                cout << "\nEnter amount to deposit: ";
+                cout << "\nEnter Cash to deposit: ";
                 cin >> amount;
                 balance += amount;
                 cout << "\nAmount deposited successfully!" << endl;
                 break;
             case 3:
-                cout << "\nEnter amount to withdraw: ";
+                cout << "\nEnter Cash to withdraw: ";
                 cin >> amount;
                 if (amount <= balance) {
                     balance -= amount;
