@@ -1,0 +1,1 @@
+This is Simple project in c++ which name is Banking System in this project we can firstly type a account number and secondly we can choose a option where options is check balance,deposits cash,withdraw cash,exit .
